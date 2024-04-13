@@ -1,17 +1,29 @@
-
-
 class CollectionsController {
-
-    // [GET] /collections
+  // [GET] /collections
 
   index(req, res) {
-    res.render('collections');
+    res.render("collections");
   }
 
-    // [GET] /collections/bikes
+  // [GET] /collections/bikes
   bikes(req, res) {
-    res.render('bikes');
+    res.render("bikes");
+  }
+
+  // [GET] /collections/pants
+  pants(req, res) {
+    res.render("pants");
+  }
+
+  // [GET] /collections/pants
+  gear(req, res) {
+    res.render("gear");
+  }
+
+  // [GET] /collections/pants
+  sale(req, res) {
+    res.render("sale");
   }
 }
 
-module.exports = new CollectionsController;
+module.exports = new CollectionsController();
