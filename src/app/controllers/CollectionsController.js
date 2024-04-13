@@ -24,6 +24,11 @@ class CollectionsController {
   sale(req, res) {
     res.render("sale");
   }
+
+  // [GET] /collections/all
+  all(req, res) {
+    res.render("all");
+  }
 }
 
 module.exports = new CollectionsController();
