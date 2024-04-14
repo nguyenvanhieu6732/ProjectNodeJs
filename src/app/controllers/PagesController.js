@@ -7,7 +7,7 @@ class PagesController {
 
    // [GET] /pages/dealer-locator
    dealerlocator(req, res) {
-    res.render("teams");
+    res.render("dealerLocator");
   }
 
    // [GET] /blog/cog
